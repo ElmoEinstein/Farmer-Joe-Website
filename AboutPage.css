@@ -103,7 +103,7 @@ body{
 
   left: 0px;
   top: 60px;
-  border-image-source: url("TextboxImage.png");
+  border-image-source: url("TextBoxImage.png");
   border-image-slice: 6 6 6 6;
 }
 

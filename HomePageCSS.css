@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family : basic8Bold;
+	src:url(Fonts/Baskic8-Bold.ttf);
+
+}
+@font-face{
+
+	font-family : basic8;
+	src:url(Fonts/Baskic8.ttf);
+
+}
+
+@font-face{
+
+	font-family : industry;
+	src:url(Fonts/Industry.ttf);
+
+}
+.mainText{
+	font-family: basic8;
+	position: absolute;
+	font-size: 30px;
+	text-align: center;
+	top: 1556px;
+	border-right: 300PX solid #c49143;
+	border-left: 300PX solid #c49143	;
+
+  background-color: #c49143;
+}
+
+
+/*Footer*/
+footer {
+	background-color: #c49143;
+ 	color: #fff;
+ 	padding: 10px;
+ 	text-align: center;
+ 	width: 100%;
+}
+
+#KasperPicture{
+	width: 15%;
+}
+
+#LinkedFooterImages{
+	width: 5%;
+
+}
+#LinkedFooterImagesItch{
+	width: 6.5%;
+
+}
+#LinkedFooterImagesTwitter{
+	width: 5.5%;
+
+}
+#LinkedFooterImagesInstagram{
+	width: 5.5%;
+
+}
+#LinkedFooterImagesYoutube{
+	width: 6%;
+
+}
+.CopyrightText{
+	font-size: 20px;
+}
+
+.BrandText{
+	color: #000 !important;
+}
+/*Footer end*/
+
+a {
+  text-decoration: none;
+}
+main {
+    flex: 1;
+}
+h1{
+	font-size: 50px;
+	font-family: basic8Bold;
+}
+h2{
+	font-size: 50px;
+	font-family: basic8;
+}
+.mainTextWrapper{
+
+
+}
+
+
+img{
+	vertical-align: middle;
+}
+
+body{
+
+
+	image-rendering: pixelated;
+	overflow-x: hidden;
+  flex-direction: column;
+  display: flex;
+
+}
+#backgroundColor{
+	background-image: url(backgroundColor.png);
+	width: 200%;
+	height: 200%;
+}
+
+.centered {
+	  display: flex;
+  justify-content: center;
+	
+}
+/*LOGO*/
+
+.logoWrapper{
+	position: absolute;
+    top: 200px
+}
+#farmer_joe_logo{
+	max-width: 95%;
+	width: 645px;
+}
+
+#farmer_joe_bottom_field{
+	height: 624px;
+	/*margin-top: 800px;*/
+}
+
+#farmer_joe_building{
+	
+	width: 679px;
+	/*margin-top: 600px;*/
+}
+.bottomFieldWrapper{
+	position:absolute;
+  top:20px;
+	top: 972px;
+}
+.skyWrapper{
+
+	position: absolute;
+
+
+}
+
+#sky{
+ width: 3000px;
+ height: 1508px;
+}
+
+.BackgroundWrapper{
+	position: absolute;
+	top: 530px;
+}
+/*PARRALAX*/
+
+
+
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.sky{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-family: basic8Bold;
+	width: 100%;
+	height: 200vh;
+	background-image: url(HomePage/Sky/Sky.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+
+}
+
+
+/*
+div:nth-child(5){
+	background-image: url(Sky.png);
+	background-size:100%;
+}
+
+
+div:nth-child(6){
+
+	background-color: pink;
+
+}
+div:nth-child(7){
+	background-color: maroon;
+
+}
+
+/*NAVIGATION BAR*/
+.navigationBar{
+  position: fixed;
+	z-index: 1000;
+  font-family: basic8Bold;
+	background-color: #524793;
+	overflow: auto;
+	width: 100%;
+
+}
+
+.navigationBar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  width: 20%; 
+  text-align: center;
+}
+
+.navigationBar a:hover {
+  background-color: #695eac;
+  color: white;
+}
+.navigationBar a.active {
+  background-color: #6156a1;
+  color: white;
+}
+#topBottomBoarder{
+	width: 50%;
+}
+

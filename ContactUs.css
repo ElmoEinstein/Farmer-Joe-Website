@@ -251,7 +251,9 @@ img{
 
 
 }
-
+.Form{
+  position: revert;
+}
 textarea{
   text-align: center;
 

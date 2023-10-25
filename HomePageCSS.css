@@ -25,13 +25,16 @@
 	font-size: 30px;
 	text-align: center;
 	top: 1556px;
-	margin-top: -300px;
 	border-right: 300PX solid #c49143;
-	border-left: 300PX solid #c49143	;
-
+	border-left: 300PX solid #c49143;
   background-color: #c49143;
-}
 
+}
+.mainTextWrapper{
+	position: absolute;
+	top: 1556px;
+	width: 100%;
+}
 
 /*Footer*/
 footer {

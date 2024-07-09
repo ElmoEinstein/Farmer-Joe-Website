@@ -106,11 +106,11 @@ function SwitchTracks(){
 
 }
 
-const trackSrc = "Sound/Songs/" + tracks[trackId] + ".mp3";
+const trackSrc = "public/Sound/Songs/" + tracks[trackId] + ".mp3";
 
 
 function LoadTrack(){
-  audio.src = "Sound/Songs/" + tracks[trackId] + ".mp3";
+  audio.src = "public/Sound/Songs/" + tracks[trackId] + ".mp3";
 
   audio.load();
 
@@ -286,7 +286,7 @@ slider.addEventListener("input", CustomSlider)
 
   //Load the file
   loader.load(
-    `Models/${objToRender}/scene.gltf`,
+    `public/${objToRender}/scene.gltf`,
     function (gltf) {
       object = gltf.scene;
       scene.add(object);
